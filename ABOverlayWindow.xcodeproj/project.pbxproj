@@ -13,6 +13,7 @@
 		937F9CC91CFFA21200C28A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937F9CC71CFFA21200C28A2E /* Main.storyboard */; };
 		937F9CCB1CFFA21200C28A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937F9CCA1CFFA21200C28A2E /* Assets.xcassets */; };
 		937F9CCE1CFFA21200C28A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937F9CCC1CFFA21200C28A2E /* LaunchScreen.storyboard */; };
+		937F9CDD1CFFA35900C28A2E /* ABOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 937F9CDC1CFFA35900C28A2E /* ABOverlayWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		937F9CCA1CFFA21200C28A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937F9CCD1CFFA21200C28A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937F9CCF1CFFA21200C28A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937F9CDB1CFFA35900C28A2E /* ABOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABOverlayWindow.h; sourceTree = SOURCE_ROOT; };
+		937F9CDC1CFFA35900C28A2E /* ABOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABOverlayWindow.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		937F9CBD1CFFA21200C28A2E /* ABOverlayWindow */ = {
 			isa = PBXGroup;
 			children = (
+				937F9CDB1CFFA35900C28A2E /* ABOverlayWindow.h */,
+				937F9CDC1CFFA35900C28A2E /* ABOverlayWindow.m */,
 				937F9CC11CFFA21200C28A2E /* AppDelegate.h */,
 				937F9CC21CFFA21200C28A2E /* AppDelegate.m */,
 				937F9CC41CFFA21200C28A2E /* ViewController.h */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				937F9CC61CFFA21200C28A2E /* ViewController.m in Sources */,
+				937F9CDD1CFFA35900C28A2E /* ABOverlayWindow.m in Sources */,
 				937F9CC31CFFA21200C28A2E /* AppDelegate.m in Sources */,
 				937F9CC01CFFA21200C28A2E /* main.m in Sources */,
 			);

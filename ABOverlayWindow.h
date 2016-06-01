@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  ABOverlayWindow.h
 //
 //  ABOverlayWindow
 //
@@ -23,24 +23,12 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "AppDelegate.h"
-#import "ABOverlayWindow.h"
+#import <UIKit/UIKit.h>
 
-@interface AppDelegate ()
-@property(nonatomic,strong) ABOverlayWindow *overlayWindow;
-@end
+extern NSString * const ABGridPaddingWidthKey;
+extern NSString * const ABGridColorKey;
+extern NSString * const ABGridColumnCountKey;
 
-@implementation AppDelegate
-
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-#if TARGET_IPHONE_SIMULATOR
-    self.overlayWindow = [[ABOverlayWindow alloc] init];
-    [self.overlayWindow showWithConfiguration:nil];
-#endif
-
-    return YES;
-}
-
+@interface ABOverlayWindow : UIWindow
+- (void)showWithConfiguration:(NSDictionary*)configuration;
 @end
