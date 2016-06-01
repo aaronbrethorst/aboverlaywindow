@@ -11,10 +11,12 @@ An easy-to-use overlay window that helps you fit your content to a grid.
 3. Add a property of type `ABOverlayWindow` to your App Delegate.
 4. Add the following code block to `-application:didFinishLaunchingWithOptions:`
 
-    if TARGET_IPHONE_SIMULATOR
-        self.overlayWindow = [[ABOverlayWindow alloc] init];
-        [self.overlayWindow showWithConfiguration:nil];
-    endif
+```
+  #if TARGET_IPHONE_SIMULATOR
+    self.overlayWindow = [[ABOverlayWindow alloc] init];
+    [self.overlayWindow showWithConfiguration:nil];
+  #endif
+```
 
 ## License
 
