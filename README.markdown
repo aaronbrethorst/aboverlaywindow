@@ -18,7 +18,7 @@ An easy-to-use overlay window that helps you fit your content to a grid.
   #endif
 ```
 
-## License
+## MIT License
 
     Copyright (c) 2016 Aaron Brethorst
 
